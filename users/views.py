@@ -11,3 +11,9 @@ def index(request):
     :return: 响应对象
     """
     return HttpResponse("hello index")
+
+
+def weather(request, city, year):
+    print(city)
+    print(year)
+    return HttpResponse("ok")

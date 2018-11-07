@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
     url(r"^index/$", views.index),
+    url(r"^weather/([a-z]+)/(\d{4})/$", views.weather),
 ]
