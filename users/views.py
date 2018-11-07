@@ -17,3 +17,9 @@ def weather(request, city, year):
     print(city)
     print(year)
     return HttpResponse("ok")
+
+
+def weather2(request, year, city):
+    print(city)
+    print(year)
+    return HttpResponse("ok")
